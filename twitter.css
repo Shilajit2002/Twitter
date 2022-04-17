@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+main {
+    display: flex;
+}
+
+#left {
+    margin-right: 25px;
+}
+
+#right .logo {
+    margin: 30px 0px 30px -5px;
+}
+
+#right .h1 h1 {
+    color: #e7e9ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 710;
+    font-style: unset;
+    margin: 35px 0px 30px 3px;
+}
+
+#right .h2 h2 {
+    color: #e7e9ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 40px 0px 30px 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#right .google button img {
+    width: 23px;
+    margin: 4px;
+}
+
+#right .google button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 40px;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 40px;
+    margin: 0px 0px 30px 6px;
+    color: #505253;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+#right .google button:hover {
+    background-color: #f3efef;
+}
+
+#right .apple button img {
+    width: 23px;
+    margin: 4px;
+}
+
+#right .apple button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 40px;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 40px;
+    margin: 0px 0px 15px 6px;
+    color: #0f1419;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+#right .apple button:hover {
+    background-color: #dad6d6;
+}
+
+#right .or {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+#right .or hr {
+    width: 130px;
+    margin: 0px 10px 0px 10px;
+    border-style: none;
+    border: 0.1px solid rgb(37, 37, 37);
+}
+
+#right .email button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 40px;
+    background-color: #1d9bf0;
+    border-style: none;
+    border-radius: 40px;
+    margin: 10px 0px 10px 6px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+#right .email button:hover {
+    background-color: #167aec;
+}
+
+#right .conditions {
+    color: #78797a;
+    width: 302px;
+    margin: 2px 0px 15px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#right .conditions a {
+    color: #1d9bf0;
+    transition: 1ms;
+}
+
+#right .conditions a:hover {
+    text-decoration: underline;
+}
+
+#right .account h3 {
+    color: #e7e9ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: unset;
+    margin: 50px 0px 15px 8px;
+}
+
+#right .sign button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 38px;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 40px;
+    border: 2px solid rgb(43, 43, 43);
+    margin: 5px 0px 10px 6px;
+    color: #167aec;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+#right .sign button:hover {
+    background-color: #01101d;
+}
+
+footer {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:428px) {
+    main {
+        display: block;
+    }
+
+    #left img {
+        width: 428px;
+    }
+
+    #right {
+        padding-left: 40px;
+    }
+
+    #right .h1 h1 {
+        font-size: 40px;
+    }
+
+    #right .h2 h2 {
+        font-size: 28px;
+    }
+
+    footer img {
+        width: 428px;
+    }
+}
